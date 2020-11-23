@@ -50,7 +50,8 @@ def clean_data(data):
 
 
 def try_me():  
-    'hello do you see this?'
+    plt.imshow('fruits.jpg')
+    return ''
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
