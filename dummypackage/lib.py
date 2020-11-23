@@ -50,7 +50,7 @@ def clean_data(data):
 
 
 def try_me():  
-    plt.imshow('fruits.jpg')
+    print('hi do you see this?')
     return ''
 
 if __name__ == '__main__':
