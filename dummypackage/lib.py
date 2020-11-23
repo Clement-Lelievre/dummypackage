@@ -6,6 +6,7 @@
 from os.path import split
 import pandas as pd
 import datetime
+import matplotlib.pyplot as plt
 
 pd.set_option('display.width', 200)
 
@@ -47,6 +48,9 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+
+def try_me():  
+    plt.imshow('fruits.jpg')
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
